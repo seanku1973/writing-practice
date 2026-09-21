@@ -97,6 +97,32 @@ export const serverWritingTests: ServerWritingTest[] = [
       ],
     },
   },
+  {
+    code: "WT04",
+    exerciseLabel: "Exercise 04",
+    title: "中級寫作能力測驗 04",
+    durationSeconds: 40 * 60,
+
+    translation: {
+      title: "第一部分：中譯英（40%）",
+      instruction:
+        "請將下列的一段中文翻譯成通順、達意且前後連貫的英文。",
+      prompt:
+        "Stella每年八月都會到紐約出差，而今年她打算帶她十歲大的兒子同行。Stella 最近一直在忙著計畫她的理想旅程。她正在考慮帶她兒子去遊樂園坐真正刺激的雲霄飛車。她相信她兒子絕對會對這很有與趣的。",
+    },
+
+    essay: {
+      title: "第二部分：英文作文（60%）",
+      instruction:
+        "請依下面所提供的文字提示寫一篇英文作文，長度約 120 字（8 至 12 個句子）。作文可以是一個完整的段落，也可以分段。",
+      prompt:
+      "不論是和家人或朋友，每個人難免會有爭執的經驗。請寫一篇文章說明你的看法。",
+      questions: [
+        "發生爭吵的原因與經過。",
+        "解決方式與這次事件的影響或感想。",
+      ],
+    },
+  },
   // 未來新增 Exercise 02、Exercise 03 時，
   // 只要在這個陣列增加下一份測驗即可。
 ];
